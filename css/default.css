@@ -171,9 +171,10 @@ a:hover {
 }
 
 footer {
-    padding: 2rem 0;
+    padding-top: 1rem ;
+
     background-color: #ca8c28;
-    margin-bottom: auto;
+    
 }
 
 .link {
@@ -235,19 +236,19 @@ footer .quick-links {
 }
 
 .logo {
-    width: 100px;
+    width: 85px;
 }
 
 #uesc-logo {
-    width: 80px;
-    margin-left: 12px;
+    width: 60px;
+    margin-left: 1px;
+    margin-right: 5px;
 }
 
 #uefs-logo {
-    width: 190px;
-    padding-left: 20px;
+    width: 130px;
+    padding-right: 5px;
     padding-top: 5px;
-    ;
 }
 
 .simposio {
