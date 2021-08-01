@@ -1,11 +1,16 @@
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins-Light.ttf);
+}
+
 #aya-logo {
     height: 80px;
 }
 
-body {
+* {
     margin: 0;
     padding: 0;
-    font-family: arial sans-serif;
+    font-family: poppins, sans-serif;
 }
 
 header {
@@ -46,4 +51,9 @@ header {
 .hero-banner h1,
 h2 {
     color: #fff;
+}
+
+.hero-banner h1 {
+    font-size: 8vh;
+    font-weight: bold;
 }
