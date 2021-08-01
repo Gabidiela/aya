@@ -103,8 +103,13 @@ header {
     border-radius: 8px;
     padding: 10px;
     padding-top: 20px;
-    height: 200px;
+    height: 220px;
     box-shadow: 1px 1px 10px #00000033;
+}
+
+.info-block-org {
+    padding: 10px;
+    padding-top: 20px;
 }
 
 .info-title {
@@ -125,6 +130,17 @@ header {
     padding: 10px;
     text-align: center;
     font-size: 15pt;
+}
+
+.info-desc-org {
+    padding: 0px 10px;
+    text-align: center;
+    font-size: 12pt;
+    margin-bottom: 0.5rem;
+}
+
+.formacao {
+    font-size: 10pt;
 }
 
 
