@@ -5,6 +5,10 @@
     src: url(../fonts/Poppins-Light.ttf);
 }
 
+body {
+    overflow-x: hidden;
+}
+
 #aya-logo {
     height: 80px;
 }
@@ -13,6 +17,7 @@
     margin: 0;
     padding: 0;
     font-family: poppins, sans-serif;
+    /* border: 1px solid red;*/
 }
 
 header {
@@ -47,18 +52,41 @@ header {
     height: 90vh;
 }
 
+.banner-content-sm {
+    background-image: url("../img/hero-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+
 .hero-banner {
     background-color: rgba(0, 0, 0, 0.7);
     height: 90vh;
-    width: 100vw;
+    width: 100%;
+}
+
+.hero-banner-sm {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 60vh;
+    width: 100%;
 }
 
 .hero-banner h1,
-h2 {
+.hero-banner h2 {
     color: #fff;
 }
 
 .hero-banner h1 {
+    font-size: 8vh;
+    font-weight: bold;
+}
+
+.hero-banner-sm h1,
+.hero-banner-sm h2 {
+    color: #fff;
+}
+
+.hero-banner-sm h1 {
     font-size: 8vh;
     font-weight: bold;
 }
@@ -103,9 +131,7 @@ h2 {
 /* !--------------------------- ANCHOR APRESENTAÇÃO ------------------------------*/
 
 .apresentacao {
-    
     margin: 5rem 12px -1px 0px;
-    
 }
 
 .justificado {
@@ -222,4 +248,27 @@ footer .quick-links {
     padding-left: 20px;
     padding-top: 5px;
     ;
+}
+
+.simposio {
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.simposio-title {
+    font-size: 22pt;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.simposio-subtitle {
+    font-size: 16pt;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.title-programacao {
+    text-align: center;
+    font-size: 28pt;
 }
