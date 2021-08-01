@@ -62,3 +62,37 @@ h2 {
     font-size: 8vh;
     font-weight: bold;
 }
+
+
+/* !--------------------------- ANCHOR APRESENTAÇÃO ------------------------------*/
+
+.apresentacao {
+    margin-top: 5rem;
+}
+
+.justificado {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.lerMais {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius: 100px;
+    color: #000;
+    background-color: #8dad31;
+    border-color: #8dad31;
+}
+
+.lerMais:hover {
+    color: #000;
+    background-color: #ff8c00;
+    border-color: #ff8c00;
+}
+
+.lerMais:focus {
+    color: #000;
+    background-color: #ff8c00;
+    border-color: #ff8c00;
+    box-shadow: 0 0 0 0.25rem #ff8c0077;
+}
