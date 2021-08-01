@@ -147,6 +147,7 @@ a:hover {
 footer {
     padding: 2rem 0;
     background-color: #ca8c28;
+    margin-bottom: auto;
 }
 
 .link {
@@ -199,7 +200,6 @@ footer .quick-links {
 
 .fa-ellipsis-h {
     color: #000;
-    padding: 2rem 0;
 }
 
 .realizacao {
