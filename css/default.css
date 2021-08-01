@@ -63,7 +63,35 @@ h2 {
     font-weight: bold;
 }
 
-
+/* !--------------------------- ANCHOR BLOCO INFORMATIVO -------------------------*/
+.informativos{
+    margin-top: -75px;
+}
+.info-block{
+    background-color: #f7f7f7f5;
+    border-radius:8px;
+    padding: 10px;
+    padding-top: 20px;
+    height: 200px;
+    box-shadow: 1px 1px 10px #00000033;
+}
+.info-title{
+    text-align:center;
+    font-size: 18pt;
+}
+.info-hr{
+    width: 40%;
+    margin: auto;
+    height: 2px !important;
+    background-color: #2d572c;
+    opacity: 1;
+    border-radius: 5px;
+}
+.info-desc{
+    padding: 10px;
+    text-align: center;
+    font-size:15pt;
+}
 /* !--------------------------- ANCHOR APRESENTAÇÃO ------------------------------*/
 
 .apresentacao {
