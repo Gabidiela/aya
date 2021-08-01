@@ -103,7 +103,9 @@ h2 {
 /* !--------------------------- ANCHOR APRESENTAÇÃO ------------------------------*/
 
 .apresentacao {
-    margin-top: 5rem;
+    
+    margin: 5rem 12px -1px 0px;
+    
 }
 
 .justificado {
