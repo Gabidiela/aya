@@ -12,25 +12,24 @@
     <link rel='stylesheet' type='text/css' media='screen' href='css/default.css'>
     <script src='js/bootstrap.min.js'></script>
     <script src="https://kit.fontawesome.com/748f1111dd.js" crossorigin="anonymous"></script>
-
+    <script>
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', 'header/header.html', true);
+        xhr.onreadystatechange = function() {
+            if (this.readyState !== 4) return;
+            if (this.status !== 200) return; // or whatever error handling you want
+            document.getElementById('header').innerHTML = this.responseText;
+        };
+        xhr.send();
+    </script>
 </head>
 
 <body>
+
     <!--! ANCHOR HEADER-->
-    <header class="d-flex flex-wrap justify-content-center align-items-center py-3 ">
-        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-            <span class="fs-4"><img id= "aya-logo" src="img/aya-adinkra.png" alt="aya-logo"> Aya 2021</span>
-        </a>
-        <ul class="nav nav-pills">
-            <li class="nav-item"><a href="index.html" class="nav-link menu-link" aria-current="page">Home</a></li>
-            <li class="nav-item"><a href="organiazacao.html" class="nav-link menu-link">Organização</a></li>
-            <li class="nav-item"><a href="programacao.html" class="nav-link menu-link">Programação</a></li>
-            <li class="nav-item"><a href="minicursos.html" class="nav-link menu-link">Minicursos</a></li>
-            <li class="nav-item"><a href="simposios.html" class="nav-link menu-link">Simpósios</a></li>
-            <li class="nav-item"><a href="anais.html" class="nav-link menu-link">Anais</a></li>
-            <li class="nav-item"><a href="apresentacao.html" class="nav-link menu-link">Edições Anteriores</a></li>
-        </ul>
-    </header>
+    <div id="header">
+
+    </div>
     <!--! ANCHOR SLIDER-->
     <div class="banner-content-sm">
         <div class="hero-banner-sm d-flex justify-content-center align-items-center">
