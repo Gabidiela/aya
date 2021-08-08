@@ -1,7 +1,9 @@
 /*RETIRAR A LOGO DO 000WEBHOST*/
+
 img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
     display: none;
 }
+
 
 /* !--------------------------- ANCHOR CABEÇALHO ------------------------------*/
 
@@ -28,6 +30,10 @@ body {
 header {
     padding-left: 5rem;
     padding-right: 5rem;
+    background-color: #ca8c28;
+}
+
+.menuPrincipal {
     background-color: #ca8c28;
 }
 
@@ -137,7 +143,7 @@ a:hover {
     border-radius: 5px;
 }
 
-.info-highlight{
+.info-highlight {
     color: #ca8c28;
     font-weight: bolder;
 }
@@ -299,20 +305,20 @@ footer .quick-links {
     margin-top: 2em;
 }
 
-.p-programacao{
+.p-programacao {
     font-size: 16px;
     padding-left: 2.5rem;
 }
 
-.highlight-programacao{
+.highlight-programacao {
     display: inline-block;
     margin-top: 1em;
     font-weight: bolder;
-    color:#a56600;
+    color: #a56600;
     padding-right: .5em;
 }
 
-.alert-programacao{
+.alert-programacao {
     background-color: rgb(255, 217, 0);
     width: 60%;
     margin: auto;
@@ -322,26 +328,26 @@ footer .quick-links {
     box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.404);
 }
 
-.alert-programacao h3{
+.alert-programacao h3 {
     text-align: center;
 }
 
-.title-anais{
+.title-anais {
     width: 60%;
     margin: 4em auto;
     border-bottom: #CA8C28 4px solid;
 }
 
-.title-anais a{
+.title-anais a {
     text-decoration: none;
     color: inherit;
     font-size: 1.5em;
 }
 
-.title-anais>a:hover{
-    color:rgb(131, 131, 131) !important;
+.title-anais>a:hover {
+    color: rgb(131, 131, 131) !important;
 }
 
-.title-anais img{
+.title-anais img {
     width: 100%;
 }
