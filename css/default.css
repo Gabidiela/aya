@@ -281,9 +281,14 @@ footer .quick-links {
 
 .simposio,
 .apresentacao-completa {
-    width: 60%;
+    width: 70%;
     margin: auto;
     margin-top: 50px;
+}
+
+.programacao-cp {
+    margin: auto;
+    width: 90%;
 }
 
 .simposio-title,
