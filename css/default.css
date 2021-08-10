@@ -56,6 +56,10 @@ a:hover {
     text-decoration: none;
 }
 
+.dropdown-menu a:hover{
+    color: #000 !important;
+}
+
 .nav-link.menu-link:active {
     color: rgb(255, 217, 0)!important;
 }
@@ -355,4 +359,85 @@ footer .quick-links {
 
 .title-anais img {
     width: 100%;
+}
+
+.negrito{
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+p a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/*galeria*/
+
+.galeria{
+    margin: 1% 4%;
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
+}
+
+.galeria img, .galeria video{
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+    transition: all ease-in-out .3s;
+}
+
+.galeria img:hover, .galeria video:hover{
+    opacity: 0.8;
+}
+
+/*moadal*/
+
+.hide{
+    display: none;
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1031;
+    background-color: rgba(0, 0, 0, 0.63);
+    display: flex;
+    flex-direction: column;
+}
+
+span, label{
+    font-family: popinsL, sans-serif;
+}
+
+.modal span, .modal label{
+    color: rgb(228, 228, 228);
+    font-size: 2rem;
+    display: block;
+}
+
+.modal img{
+    display: block;
+    width: 100%;
+    height: 70%;
+    object-fit: scale-down;
+}
+
+.modal label{
+    font-size: 1rem;
+    margin-top: .4em;
+    text-align: center;
+}
+
+.modal span{
+    align-self: flex-end;
+    cursor: pointer;
+    width: fit-content;
+    padding: 1rem;
+    position: sticky;
 }
