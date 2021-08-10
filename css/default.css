@@ -319,6 +319,16 @@ footer .quick-links {
     padding-left: 2.5rem;
 }
 
+.p-programacao strong{
+    font-style: italic;
+}
+
+.p-programacao strong span{
+    font-style: normal;
+    text-decoration: underline;
+    color: #CA8C28
+}
+
 .highlight-programacao {
     display: inline-block;
     margin-top: 1em;
@@ -333,12 +343,14 @@ footer .quick-links {
     margin: auto;
     margin-top: 2em;
     padding: 1em;
+    font-weight: bolder;
     border-radius: 50px;
     box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.404);
 }
 
 .alert-programacao h3 {
     text-align: center;
+    font-weight: bolder;
 }
 
 .title-anais {
