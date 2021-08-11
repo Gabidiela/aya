@@ -453,3 +453,8 @@ span, label{
     padding: 1rem;
     position: sticky;
 }
+
+#uesc-logo,
+#uefs-logo{
+    display: none !important;
+}
