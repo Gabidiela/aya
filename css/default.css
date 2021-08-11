@@ -60,7 +60,7 @@ a:hover {
     text-decoration: none;
 }
 
-.dropdown-menu a:hover{
+.dropdown-menu a:hover {
     color: #000 !important;
 }
 
@@ -329,11 +329,11 @@ footer img[alt="baobá-logo"]{
     padding-left: 2.5rem;
 }
 
-.p-programacao strong{
+.p-programacao strong {
     font-style: italic;
 }
 
-.p-programacao strong span{
+.p-programacao strong span {
     font-style: normal;
     text-decoration: underline;
     color: #CA8C28
@@ -383,26 +383,28 @@ footer img[alt="baobá-logo"]{
     width: 100%;
 }
 
-.negrito{
+.negrito {
     font-weight: bolder;
     font-size: 1.2em;
 }
 
-p a{
+p a {
     text-decoration: none;
     color: inherit;
 }
 
+
 /*galeria*/
 
-.galeria{
+.galeria {
     margin: 1% 4%;
     width: 50%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
 }
 
-.galeria img, .galeria video{
+.galeria img,
+.galeria video {
     width: 100%;
     height: 10rem;
     object-fit: cover;
@@ -411,17 +413,19 @@ p a{
     transition: all ease-in-out .3s;
 }
 
-.galeria img:hover, .galeria video:hover{
+.galeria img:hover,
+.galeria video:hover {
     opacity: 0.8;
 }
 
+
 /*moadal*/
 
-.hide{
+.hide {
     display: none;
 }
 
-.modal{
+.modal {
     position: fixed;
     top: 0;
     left: 0;
@@ -433,30 +437,32 @@ p a{
     flex-direction: column;
 }
 
-span, label{
+span,
+label {
     font-family: popinsL, sans-serif;
 }
 
-.modal span, .modal label{
+.modal span,
+.modal label {
     color: rgb(228, 228, 228);
     font-size: 2rem;
     display: block;
 }
 
-.modal img{
+.modal img {
     display: block;
     width: 100%;
     height: 70%;
     object-fit: scale-down;
 }
 
-.modal label{
+.modal label {
     font-size: 1rem;
     margin-top: .4em;
     text-align: center;
 }
 
-.modal span{
+.modal span {
     align-self: flex-end;
     cursor: pointer;
     width: fit-content;
@@ -465,6 +471,6 @@ span, label{
 }
 
 #uesc-logo,
-#uefs-logo{
+#uefs-logo {
     display: none !important;
 }
