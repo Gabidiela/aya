@@ -46,7 +46,7 @@ header {
     border-radius: 15px;
 }
 
-header .nav-link{
+header .nav-link {
     font-weight: bolder;
 }
 
@@ -276,7 +276,7 @@ footer .quick-links {
     object-fit: scale-down;
 }
 
-footer img[alt="baobá-logo"]{
+footer img[alt="baobá-logo"] {
     height: 5em;
     margin-top: 1.6em;
 }
@@ -298,11 +298,6 @@ footer img[alt="baobá-logo"]{
     width: 70%;
     margin: auto;
     margin-top: 50px;
-}
-
-.programacao-cp {
-    margin: auto;
-    width: 90%;
 }
 
 .simposio-title,
@@ -355,7 +350,7 @@ footer img[alt="baobá-logo"]{
     padding: 1em;
     font-weight: bolder;
     border-radius: 50px;
-    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.404);
+    box-shadow: 10px 10px 0px rgba(209, 178, 0, 0.6);
 }
 
 .alert-programacao h3 {
@@ -473,4 +468,20 @@ label {
 #uesc-logo,
 #uefs-logo {
     display: none !important;
+}
+
+
+/* !--------------------------- ANCHOR PROGRAMAÇÃO ------------------------------*/
+
+.programacao-card {
+    margin: 2rem auto;
+    // background-color: #fff9f1;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 100%;
+}
+
+.programacao-cp {
+    margin: 5rem auto;
+    width: 90%;
 }
