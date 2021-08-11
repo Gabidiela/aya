@@ -46,6 +46,10 @@ header {
     border-radius: 15px;
 }
 
+header .nav-link{
+    font-weight: bolder;
+}
+
 .nav-link.menu-link {
     color: #000;
     font-size: 14px;
@@ -268,7 +272,13 @@ footer .quick-links {
 }
 
 .logo {
-    width: 85px;
+    height: 8em;
+    object-fit: scale-down;
+}
+
+footer img[alt="baobá-logo"]{
+    height: 5em;
+    margin-top: 1.6em;
 }
 
 #uesc-logo {
