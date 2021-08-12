@@ -12,6 +12,11 @@ img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost
     src: url(../fonts/Poppins-Light.ttf);
 }
 
+@font-face{
+    font-family: poppinsBold;
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+
 body {
     overflow-x: hidden;
 }
@@ -48,6 +53,7 @@ header {
 
 header .nav-link {
     font-weight: bolder;
+    font-family: poppinsBold, sans-serif;
 }
 
 .nav-link.menu-link {
@@ -475,7 +481,7 @@ label {
 
 .programacao-card {
     margin: 2rem auto;
-    // background-color: #fff9f1;
+    /*background-color: #fff9f1;*/
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     width: 100%;
